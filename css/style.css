@@ -1,0 +1,107 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(229, 226, 226);
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top:20px;
+    height: 245px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.377);
+    color: rgb(3, 121, 218);
+    text-align: center;
+    background-color: white;
+}
+div.container h2{
+    font-size: 22pt;
+}
+
+div.container button {
+    margin-top: 10px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: rgb(138, 197, 245);
+    color: white;
+    font-weight: 600;
+}
+
+div.container button:hover{
+    background-color:  rgb(80, 174, 252);
+    transition: all .2s;
+}
+/* adicionar dinheiro */
+#adicionar-dinheiro{
+    display: none;
+}
+
+div.row input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    text-align: center;
+    outline: none;
+}
+
+button#cancelar-add,#cancelar-add-gasto{
+    background-color: rgb(247, 101, 101);
+}
+
+button#salvar-add,#salvar-add-gasto{
+    background-color: rgb(43, 243, 166);
+}
+/* adicionar gasto */
+#adicionar-gasto{
+    display: none;
+}
+
+div.row p{
+    padding-top: 20px;
+}
+
+
+div.row input#subLimite{
+    color: rgb(248, 134, 41);
+    border-color: black;
+    font-weight: 300;
+    width: 200px;
+}
+
+/* histórico de gasto */
+
+div#historico-gasto{
+   height: 600px;
+   margin-bottom: 20px;
+}
+#tabGasto{
+    overflow: auto;
+    
+}
+
+div#historico-gasto p{
+    color: black;
+   
+}
+#dinheiro-gasto{
+    color: rgb(245, 97, 97);
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    width: 70px;
+    padding-right:10px ;
+    margin-top:-95px ;
+}
+
+td{
+    width: 60px;
+    color: black;
+}
+
+
+
+
